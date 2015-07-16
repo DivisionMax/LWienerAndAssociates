@@ -1,0 +1,227 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Arvo:400,700);
+/* custom-nav */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400);
+
+body {
+
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	font-family: 'Ubuntu', sans-serif;
+  background-color: #FFFFFF;
+  font-size: 1.5em;
+  font-weight: 400;
+
+}
+  
+.first-paragraph:first-letter{
+  font-size: 1.5em;
+}
+
+.text-highlight{
+  color: #00AFA9;
+}
+
+p{ 
+	font-size: 1.25em;
+	margin-top: 25px;
+	margin-bottom: 30px;
+}
+
+.slight-indent{
+  margin-left: 30px;
+
+}
+
+p a:link{
+  text-decoration:underline;
+}
+
+
+
+p a:hover{
+     /* transition*/
+      -moz-transition:color 0.10s ease-in;
+    -o-transition:color 0.10s ease-in;
+    -webkit-transition:color 0.10s ease-in;
+    /* end */
+  color:#C4C4C4;
+}
+
+
+a:link, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  
+}
+
+.min-margin{
+  margin-top: 5px;
+}
+
+.lw-btn {
+	width: 66%;
+	background-color: gray;
+	color: #DADADA;
+}
+
+.lw-btn a:link, a:visited {
+  text-decoration: none;
+}
+
+.lw-btn a:hover {
+  color: #E7E7E7;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+   /*font-family: 'Arvo', Georgia, Times, serif;*/
+   color: #000000;
+   font-weight: 400;
+   margin-bottom: 20px;
+   /*font-size: 1.5em;*/
+
+}
+
+.indent{
+  margin-left: 170px;
+}
+
+.carousel{
+	padding-top: 0px;
+	margin-top: 0px;
+  margin-bottom: 20px;
+  max-height: 600px;
+  overflow: hidden;
+  
+  
+ 
+}
+
+ .item img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+  }
+
+/* * {
+  border: 1px solid black;
+} */
+
+.divider { 
+       border: 0;
+    height: 1px;
+    background: #333;
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,hsla(0,0%,0%,0)), color-stop(50%,hsla(0,0%,0%,.75)), color-stop(100%,hsla(0,0%,0%,0)));
+    background: -webkit-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%);
+    background:    -moz-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%);
+    background:     -ms-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%);
+    background:      -o-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%);
+    background:         linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%);
+}
+
+.glyphicon-circle{
+	/*background-color:  #4DC7C3;*/
+  background-color: white;
+
+ height: 125px;
+ width: 125px;
+ -moz-border-radius:50%;
+ -webkit-border-radius: 50%;
+
+ text-align: center;
+ padding-top: 30px;
+}
+
+
+.glyphicon-circle i{
+  color: #9D9D9D;
+  /*color: #FFFFFF;*/
+}
+
+.glyphicon-circle:hover i {
+	
+	   /* transition*/
+      -moz-transition:color 0.25s ease-in;
+    -o-transition:color 0.25s ease-in;
+    -webkit-transition:color 0.25s ease-in;
+    /* end */
+    /*color: #FAFF71;*/
+    color: #1B1B1B;
+	
+}
+
+.glyph-text,
+.glyph-holder{
+  margin-left: 20px;
+}
+
+.glyph-holder h3{
+  margin-top:5px;
+}
+
+.justify{
+	display: -webkit-flex; /* Safari */
+    -webkit-justify-content: space-around; /* Safari 6.1+ */
+    display: flex;
+    justify-content: space-around;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.text-center{
+	/*text-align: center;*/
+  margin: 0 auto;
+  padding-top: 35px;
+  ;
+
+}
+
+.js body{
+  display:none;
+}
+
+#not-form{
+  font-size: 150%;
+}
+
+
+.inline{
+  display: inline:block;
+}
+
+/* FORM */
+
+#emailRepeat{
+  display: none;
+}
+
+/* loading spinner */
+/*if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  /*background: url(images/loader-64x/Preloader_2.gif) center no-repeat #fff;*/
+}

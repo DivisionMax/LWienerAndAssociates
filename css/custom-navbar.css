@@ -1,0 +1,142 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400);
+
+#header {
+    height: 50px;
+    
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 2.7em;
+    padding-left: 20px;
+    width:100%;
+    border-color: #FDFDFD;
+    }
+
+.header-pad{
+
+}
+
+#header a:hover{
+
+    /* transition*/
+      -moz-transition:opacity 0.25s ease-in;
+    -o-transition:opacity 0.25s ease-in;
+    -webkit-transition:opacity 0.25s ease-in;
+
+    text-shadow: 1px 1px #676767;
+    /* end */
+
+     /* opacity*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0.6)";
+    filter: alpha(opacity=0.6);
+    -moz-opacity: 0.6;
+    -khtml-opacity: 0.6;
+    opacity: 0.6;
+    /* end */
+}
+
+/* navbar */
+#header,
+.navbar-default {
+    /*background-color: #CEC9C9;*/
+    background-color: #FDFDFD;
+    border-radius: 0%;
+    
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0.7)";
+    filter: alpha(opacity=0.7);
+    -moz-opacity: 0.7;
+    -khtml-opacity: 0.7;
+    opacity: 0.7;
+    border-color: #FDFDFD;
+    border-bottom-color: #CEC9C9;
+    /* carousel and nav flush */
+     padding-bottom: 0px;
+    margin-bottom: 0px;
+
+}
+.transition{
+    /* transition*/
+      -moz-transition:all 0.25s ease-in;
+    -o-transition:all 0.25s ease-in;
+    -webkit-transition:all 0.25s ease-in;
+    /* end */
+}
+
+/* title brand */
+.navbar-default .navbar-brand {
+    color: #777;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+   
+    color: #5E5E5E;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    /* opacity*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+    filter: alpha(opacity=1);
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    opacity: 1;
+    /* end */
+
+    color: #000000;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 1.85em;
+    margin: auto 10px auto 10px;
+
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+ 
+    /* transition*/
+      -moz-transition:background-color 0.25s ease-in;
+    -o-transition:background-color 0.25s ease-in;
+    -webkit-transition:background-color 0.25s ease-in;
+    /* end */
+    background-color: #FAFF71;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #E7E7E7;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+}
+/* caret */
+
+.navbar-default .navbar-nav > .open > a .caret, 
+.navbar-default .navbar-nav > .open > a:hover .caret, 
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+/* mobile version */
+.navbar-default .navbar-toggle {
+    border-color: #DDD;
+
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #DDD;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #F7FF28;
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+    }
+}
