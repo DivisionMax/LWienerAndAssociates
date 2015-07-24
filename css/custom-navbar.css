@@ -109,7 +109,7 @@
 .navbar-default .navbar-nav > .open > a:hover, 
 .navbar-default .navbar-nav > .open > a:focus {
     color: #555;
-    background-color: #D5D5D5;
+    background-color: #FFFFFF;
 }
 /* caret */
 
@@ -129,7 +129,7 @@
     background-color: #DDD;
 }
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #F7FF28;
+    background-color: #B7B7B7;
 }
 @media (max-width: 767px) {
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {

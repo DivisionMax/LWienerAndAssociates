@@ -1,12 +1,15 @@
-  <meta charset="utf-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="L Wiener &amp; Associates - A Cape Town based legal firm that specializes in court work">
+    <meta name="author" content="L Wiener &amp; Associates">
 	   <!-- user-scalable=no -->
     <title>L Wiener &amp; Associates</title>
     <!-- Bootstrap -->
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-    
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+
     <link href="css/l_associates.css" rel="stylesheet">
     <link href="css/sticky-footer.css" rel="stylesheet">
     <link href="css/custom-navbar.css" rel="stylesheet">

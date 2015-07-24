@@ -22,7 +22,24 @@
  ?>
 	<div class="container-fluid">
 	<!-- the page specific content -->
-	<h1 class="indent">Areas of Practice | Expertise</h1>
+
+ <div class="row">
+       <div class="col-md-4 glyphicon-circle"> 
+ <i class="fa fa-shield fa-4x icon" style="color:white;"></i>
+    </div>
+    <div class="glyph-text">
+    <div class="col-md-4">
+                        
+                        <div class="glyph-text">
+                     
+                  <h1 >Areas of Practice | Expertise</h1>
+      </div>   
+      </div>
+    </div>
+</div>
+
+
+	<!-- <h1 class="indent">Areas of Practice | Expertise</h1> -->
 	<br/>
 <div class="glyph-holder"> 
  <div class="row">
