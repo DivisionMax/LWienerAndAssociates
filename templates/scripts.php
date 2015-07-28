@@ -1,5 +1,10 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	
+
+
     <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+
+    <?php include_once("analyticstracking.php") ?>
 
 <script type="text/javascript">
 if (typeof jQuery == 'undefined')
