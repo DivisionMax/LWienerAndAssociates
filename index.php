@@ -17,17 +17,18 @@
   include('templates/scripts.php');
  ?>
 
- <script type="text/javascript">
+
+      
+        <script type="text/javascript">
  // no-js = will not occur
- document.documentElement.className = document.documentElement.className.replace('no-js','js');
+  document.documentElement.className = document.documentElement.className.replace('no-js','js');
 
     $(function(){
-$('body').fadeIn(750); 
+$('body').fadeIn(550); 
 
     });
 
     </script>
-
 
 
 <?php 

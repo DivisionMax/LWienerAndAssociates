@@ -192,7 +192,7 @@ else{
       South Africa
     </address>
     <div id="footer-contact"> 
-      <!-- <a href="mailto:lewlaw2002@yahoo.co.uk">lewlaw2002@yahoo.co.uk</a> <br/> -->
+      <a href="mailto:lewlaw2002@yahoo.co.uk">lewlaw2002@yahoo.co.uk</a> <br/>
       Phone:  +27 72 128 2033 <br/>
       Fax:  086 510 4187
     </div>

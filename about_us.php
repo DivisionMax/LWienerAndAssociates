@@ -49,6 +49,7 @@ part-time lecturer for the Association of Law Societies for training of candidat
  	include('templates/footer.php');
  ?>
 </div>
+</div>
 <!-- any page specific scripts-->
 
 </body>
