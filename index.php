@@ -2,7 +2,7 @@
 <html lang="en" class="no-js">
 
 <head>
-<?php 
+<?php
   include('templates/head.php');
  ?>
 
@@ -13,30 +13,30 @@
 
 <body>
 
-<?php 
+<?php
   include('templates/scripts.php');
  ?>
 
 
-      
+
         <script type="text/javascript">
  // no-js = will not occur
   document.documentElement.className = document.documentElement.className.replace('no-js','js');
 
     $(function(){
-$('body').fadeIn(550); 
+$('body').fadeIn(550);
 
     });
 
     </script>
 
 
-<?php 
+<?php
   include('templates/navigation.php');
  ?>
   <!-- the page specific content -->
-  
-   
+
+
 
     <div id="home-carousel" class="carousel slide opacity-carousel" data-ride="carousel">
   <!-- Indicators -->
@@ -65,7 +65,7 @@ $('body').fadeIn(550);
       <img src="images/4_hall.jpg" alt="Hall">
     </div>
 
-   
+
   </div>
 
   <a class="left carousel-control" href="#home-carousel" role="button" data-slide="prev">
@@ -83,29 +83,29 @@ $('body').fadeIn(550);
 
         <div class="row">
       <div class="col-md-8 col-xs-8 large justify">
-      
-      <h3> L Wiener &amp; Associates is a Cape Town based legal firm. With over 35 years experience in criminal and civil law, 
-    the firm is a court work specialist, specifically<span class="text-highlight"> civil litigation, debt collection, sectional title levy collection </span> and <span  class="text-highlight"> criminal litigation </span>, in the Magistrates' and Regional courts </h3>
-    
+
+      <h3>
+Vivamus rhoncus gravida ipsum ac condimentum. Nulla egestas quam at tristique malesuada. Etiam sed turpis eget urna mollis feugiat. <span class="text-highlight"> Morbi eget erat ante</span>, imperdiet justo auctor, consectetur massa. Vestibulum a interdum erat. <span class="text-highlight"> Etiam dictum sapien at</span> and <span  class="text-highlight"> Morbi sit amet augue </span>, Morbi sit amet augue in sem bibendum </h3>
+
       </div>
 
        <div class="col-md-4 col-xs-4 ">
        <div class="text-center">
        <a href="/practice_areas.php"  class="btn btn-lg btn-default transition">Learn More</a>
        </div>
-    
+
       </div>
-    
-    
-    
+
+
+
     </div>
-    
-<?php 
+
+<?php
   include('templates/footer.php');
  ?>
 
 </div>
-   
+
 </div>
 
 <!-- any page specific scripts-->
@@ -114,7 +114,3 @@ $('body').fadeIn(550);
 
 
 </html>
-  	
- 
-
-

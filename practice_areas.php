@@ -3,7 +3,7 @@
 
 <head>
 
-  <?php 
+  <?php
   include('templates/head.php');
   ?>
 
@@ -13,11 +13,11 @@
 
 
 <body>
-	<?php 
+	<?php
   include('templates/scripts.php');
   ?>
 
-  <?php 
+  <?php
   include('templates/navigation.php');
   ?>
   <div class="container-fluid">
@@ -40,9 +40,9 @@
       </div>
       <div class="col-md-10">
         <h2>Civil Litigation</h2>
-        <div> 
-          Any dispute between parties - breach of contract, damages suffered from motorvehicle accidents, loss caused by defective workmanship, outstanding accounts for goods sold and or delivered
-        </div>   
+        <div>
+        Vivamus rhoncus gravida ipsum ac condimentum. Nulla egestas quam at tristique malesuada. Etiam sed turpis eget urna mollis feugiat. Morbi eget erat ante.
+        </div>
       </div>
     </div>
 
@@ -54,10 +54,10 @@
      <i class="fa fa-money fa-5x"></i>
    </div>
    <div class="col-md-10">
-    <h2>Levy/Rental Collection</h2>  
+    <h2>Levy/Rental Collection</h2>
     <div>
-      Non-payment of monthly body corporate levies imposed by the body corporate to ensure ongoing maintenance, upkeep, improvements of the body corporate property
-    </div> 
+      Vivamus rhoncus gravida ipsum ac condimentum. Nulla egestas quam at tristique malesuada. Etiam sed turpis eget urna mollis feugiat. Morbi eget erat ante.
+    </div>
   </div>
   </div>
 </div>
@@ -73,9 +73,9 @@
   </div>
   <div class="col-md-10">
    <h2>Evictions</h2>
-   <div> 
-    Court mandated evictions of non-compliant and or non-paying tenants who refuse to vacate the premises.
-  </div> 
+   <div>
+Vivamus rhoncus gravida ipsum ac condimentum. Nulla egestas quam at tristique malesuada.
+  </div>
 </div>
 </div>
 
@@ -90,10 +90,9 @@
  <div class="col-md-10">
 
    <h2>Family Disputes</h2>
-   <div> 
-    Interim protection orders to protect individuals from abuse (physical, mental, financial) from a spouse, partner, and or any family member. 
-    Divorce matters including division of assets  
-  </div> 
+   <div>
+    Morbi eget erat ante. Aenean vel libero tempus, imperdiet justo auctor, consectetur massa. Vestibulum a interdum erat. Etiam dictum sapien at ante cursus eleifend.
+  </div>
 </div>
 </div>
 
@@ -109,9 +108,9 @@
    </div>
    <div class="col-md-10">
     <h2>Court Applications</h2>
-    <div> 
-      Court applications for various remedies of general disputes
-    </div> 
+    <div>
+      Morbi eget erat ante. Aenean vel libero tempus, imperdiet justo auctor, consectetur massa. Vestibulum a interdum erat. Etiam dictum sapien at ante cursus eleifend.
+    </div>
   </div>
   </div>
 </div>
@@ -121,7 +120,7 @@
 
 
 
-<?php 
+<?php
 include('templates/footer.php');
 ?>
 </div>
@@ -130,5 +129,3 @@ include('templates/footer.php');
 
 
 </html>
-
-

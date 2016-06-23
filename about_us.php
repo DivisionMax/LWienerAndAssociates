@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-<?php 
+<?php
  	include('templates/head.php');
  ?>
 
@@ -12,31 +12,26 @@
 
 
 <body>
-	<?php 
+	<?php
   include('templates/scripts.php');
  ?>
-<?php 
+<?php
  	include('templates/navigation.php');
  ?>
 <div class="container-fluid">
 	<!-- the page specific content -->
 		<h1 > About Us | History</h1>
 		<div class="text-justify">
-	<div class="row"> 	
+	<div class="row">
 		<div class="col-md-5">
 
 <p class="first-paragraph">
-	Lewis Wiener,
-after being admitted as an attorney on 7 February 1979, a partner of T H Snitchers Cohen and Snitcher from 1982 - 1996, head of the Disciplinary Dept of the Cape Law Society from 1996 - 1999, and a professional assistant 
-with T Rex and Associates Wynberg from Dec 1999 - June 2001,	
- established <span class="text-highlight">L Wiener &amp; Associates</span> June 2001 as a solo practice. 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut hendrerit diam, sit amet porta lectus. Aenean non iaculis risus, nec rutrum ligula. Vivamus ac commodo odio, in malesuada erat. Proin sollicitudin consequat orci, consequat molestie ipsum euismod quis. Nunc magna enim, hendrerit ac mattis ac, venenatis ac sem. Nam aliquam congue ipsum, eu eleifend tortor rutrum non. Ut vitae diam eu tortor dignissim venenatis. Praesent auctor vitae ex in imperdiet. Sed dignissim augue id nisl commodo eleifend. Donec tempor, ligula a aliquet auctor, leo sapien vulputate ipsum, a gravida massa elit ut velit. <span class="text-highlight">L Wiener &amp; Associates</span> non massa et, cursus luctus dolor. Ut vitae est sapien. Pellentesque tincidunt purus sit amet sem mollis fringilla.
 </p>
 
-<p>Having always been a specialist in criminal court work, the focus since 2001 has been civil litigation, evictions, 
-debt collections, court applications, and domestic violence (and or maintenance) in the Magistrate, Regional Courts, and similar High Court cases.</p>
+<p>Vivamus rhoncus gravida ipsum ac condimentum. Nulla egestas quam at tristique malesuada. Etiam sed turpis eget urna mollis feugiat. Morbi eget erat ante. Aenean vel libero tempus, imperdiet justo auctor, consectetur massa.</p>
 
-<p>He has served as a temporary Magistrate periodically in 2008 in the Wynberg and Mitchells Plain Courts, and he was previously a 
-part-time lecturer for the Association of Law Societies for training of candidate attorneys and the School for Legal Practice in criminal work.</p>
+<p>Morbi sit amet augue in sem bibendum pulvinar a id libero. Nam viverra, sem non elementum venenatis, ex quam efficitur massa, sed fermentum turpis mi ac purus. Pellentesque auctor tincidunt interdum. Nulla in mi rutrum lorem convallis pharetra. Vivamus pretium dictum massa in tristique. Phasellus vitae egestas ligula. Aliquam vitae placerat sapien. In id dolor tempus, blandit diam a, rutrum leo. Phasellus ornare auctor sapien, nec eleifend mi vestibulum et.</p>
 
 </div>
 
@@ -45,7 +40,7 @@ part-time lecturer for the Association of Law Societies for training of candidat
 
 
 
-<?php 
+<?php
  	include('templates/footer.php');
  ?>
 </div>
