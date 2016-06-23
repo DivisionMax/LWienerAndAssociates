@@ -1,9 +1,6 @@
-@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
-@import url(http://fonts.googleapis.com/css?family=Arvo:400,700);
+/*@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);*/
+/*@import url(http://fonts.googleapis.com/css?family=Arvo:400,700);*/
 /* custom-nav */
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
-@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400);
-
 /*ELEMENTS*/
 body {
 
@@ -83,10 +80,12 @@ a.fa {
 .first-paragraph:first-letter{
   font-size: 1.5em;
 }
+
 div.icon-div,
 .text-highlight{
   /*color: #00B1D1;*/
-  color: #008080;
+  /*color: #008080;*/
+  color: #007D94;
 }
 
 

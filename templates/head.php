@@ -9,7 +9,8 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
-
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arvo:400,700">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans:400,700">
     <link href="css/l_associates.css" rel="stylesheet">
     <link href="css/sticky-footer.css" rel="stylesheet">
     <link href="css/custom-navbar.css" rel="stylesheet">
